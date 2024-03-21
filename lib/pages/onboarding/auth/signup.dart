@@ -247,10 +247,10 @@ Widget _buildPasswordChecks(
       const SizedBox(
         width: 7,
       ),
-      Text(
+      Expanded(child: Text(
         checkName,
         style: AppTheme.bodyText.copyWith(fontSize: 13),
-      )
+      ))
     ],
   );
 }
